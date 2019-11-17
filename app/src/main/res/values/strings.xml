@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Rock Paper Sissors</string>
+    <string name="instruction">Instructions: select rock, paper or sissors to play</string>
+    <string name="statistics">Your all time statistics</string>
+    <string name="standings">Win: %1$d  Draw: %2$d  Lose: %3$d</string>
+    <string name="v_s_text">V.S.</string>
+    <string name="Placeholder_computer_move">Computer play placeholder</string>
+    <string name="Placeholder_player_move">Player play placeholder</string>
+    <string name="rock_image">Rock</string>
+    <string name="paper_image">Paper</string>
+    <string name="sissors_image">Sissors</string>
+    <string name="history_btn">Go to your history</string>
+    <string name="delete_btn">Delete history</string>
+</resources>
