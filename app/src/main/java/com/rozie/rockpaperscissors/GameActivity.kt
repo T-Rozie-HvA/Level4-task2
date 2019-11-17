@@ -120,13 +120,12 @@ class GameActivity : AppCompatActivity() {
     }
 
     private fun computerMove(): Int {
-        val randomInteger = (0..2).shuffled().first()
+        val randomInteger = (0..2).random()
         when (randomInteger) {
             0 -> ivComputerMove.setImageDrawable(this.getDrawable(R.drawable.rock))
             1 -> ivComputerMove.setImageDrawable(this.getDrawable(R.drawable.paper))
             2 -> ivComputerMove.setImageDrawable(this.getDrawable(R.drawable.scissors))
         }
-
         return randomInteger
     }
 
