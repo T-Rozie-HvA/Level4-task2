@@ -27,7 +27,6 @@ class GameHistoryAdapter(private val games: List<Game>): RecyclerView.Adapter<Ga
         holder.bind(games[position])
     }
 
-
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         fun bind(game: Game) {
             itemView.tvDate.text = game.date
